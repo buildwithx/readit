@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Reads
-email: [EMAIL_ADDRESS]
+title: Readit
+email: chenterphai@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Finds the best articles, books and tools for you to read.
 domain: "buildwithx.github.io"
@@ -29,7 +29,7 @@ twitter_username: buildwithx
 github_username: buildwithx
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
