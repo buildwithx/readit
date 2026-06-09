@@ -132,4 +132,5 @@
 .site-nav a:hover {
   color: #267CB9;
   border-bottom: 1px solid #e0e0e0;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
