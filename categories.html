@@ -1,0 +1,29 @@
+---
+layout: default
+permalink: /categories/
+---
+
+## Browse by Category
+
+Find the best resources for learning any technology.
+
+<div class="categories">
+  {% for category in site.data.resources.categories %}
+  <div class="category">
+    <div class="category-header">
+      <span class="category-icon">{{ category.icon }}</span>
+      <h3>{{ category.name }}</h3>
+    </div>
+    <p class="category-description">{{ category.description }}</p>
+    <div class="resource-list">
+      {% for resource in category.resources %}
+      <div class="resource-item">
+        <span class="resource-type">{{ resource.type }}</span>
+        <a href="{{ resource.url }}" target="_blank" rel="noopener noreferrer">{{ resource.title }}</a>
+        <span class="resource-description">{{ resource.description }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

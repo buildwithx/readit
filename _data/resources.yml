@@ -1,0 +1,111 @@
+# Technology categories and resources for developers
+# This file can be easily edited to add new resources
+
+categories:
+  - name: Web Development
+    slug: web-development
+    icon: 🌐
+    description: Frontend and backend web development resources
+    resources:
+      - title: MDN Web Docs
+        url: https://developer.mozilla.org
+        type: documentation
+        description: Comprehensive documentation for web technologies
+      - title: CSS-Tricks
+        url: https://css-tricks.com
+        type: article
+        description: Daily articles about CSS, HTML, JavaScript, and all things web design
+      - title: "The Odin Project"
+        url: https://www.theodinproject.com
+        type: course
+        description: Free full-stack curriculum
+
+  - name: JavaScript
+    slug: javascript
+    icon: ⚡
+    description: JavaScript and related frameworks
+    resources:
+      - title: JavaScript.info
+        url: https://javascript.info
+        type: documentation
+        description: The modern JavaScript tutorial
+      - title: "You Don't Know JS"
+        url: https://github.com/getify/You-Dont-Know-JS
+        type: book
+        description: Deep dive into JavaScript
+      - title: React Documentation
+        url: https://react.dev
+        type: documentation
+        description: Official React documentation
+
+  - name: Python
+    slug: python
+    icon: 🐍
+    description: Python programming and frameworks
+    resources:
+      - title: Python.org Tutorial
+        url: https://docs.python.org/3/tutorial/
+        type: documentation
+        description: Official Python tutorial
+      - title: Real Python
+        url: https://realpython.com
+        type: article
+        description: Python tutorials and articles
+      - title: "Automate the Boring Stuff"
+        url: https://automatetheboringstuff.com
+        type: book
+        description: Practical programming for total beginners
+
+  - name: DevOps
+    slug: devops
+    icon: 🚀
+    description: DevOps, CI/CD, and infrastructure
+    resources:
+      - title: Docker Docs
+        url: https://docs.docker.com
+        type: documentation
+        description: Official Docker documentation
+      - title: "The DevOps Handbook"
+        url: https://itrevolution.com/the-devops-handbook/
+        type: book
+        description: How to create world-class agility, reliability, and security
+      - title: Kubernetes Documentation
+        url: https://kubernetes.io/docs/
+        type: documentation
+        description: Official Kubernetes documentation
+
+  - name: Mobile Development
+    slug: mobile
+    icon: 📱
+    description: iOS and Android development
+    resources:
+      - title: Android Developer Guides
+        url: https://developer.android.com/guide
+        type: documentation
+        description: Official Android development guides
+      - title: React Native Docs
+        url: https://reactnative.dev
+        type: documentation
+        description: Build native apps with React
+      - title: Flutter Documentation
+        url: https://docs.flutter.dev
+        type: documentation
+        description: Google's UI toolkit for building apps
+
+  - name: Databases
+    slug: databases
+    icon: 🗄️
+    description: SQL and NoSQL databases
+    resources:
+      - title: PostgreSQL Tutorial
+        url: https://www.postgresqltutorial.com
+        type: article
+        description: Learn PostgreSQL step by step
+      - title: "Designing Data-Intensive Applications"
+        url: https://dataintensive.net
+        type: book
+        description: The big ideas behind reliable, scalable, and maintainable systems
+      - title: MongoDB University
+        url: https://university.mongodb.com
+        type: course
+        description: Free MongoDB courses

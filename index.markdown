@@ -1,6 +1,16 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
+
+## Welcome to Readit
+
+Find the best articles, books, and tools for learning any technology.
+
+### Quick Start
+
+- [Browse Categories](/categories/) - Find resources by technology category
+- [About](/about/) - Learn more about this project
+
+### Recently Added
+
+Stay tuned for more curated resources!
